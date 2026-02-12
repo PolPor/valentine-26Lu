@@ -15,7 +15,7 @@ function App() {
   let random = [
     {
       id: 1,
-      description: 'Di si por favor',
+      description: 'Di sí por favor',
       img: 'https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif',
     },
     {
@@ -25,47 +25,47 @@ function App() {
     },
     {
       id: 2,
-      description: 'Vamos, atrévete a decir que sí.',
+      description: 'No se arrepentirá vidita linda',
       img: 'https://media.tenor.com/DTmYqda3ZokAAAAi/peachandgoma.gif',
     },
     {
       id: 3,
-      description: 'No tengas miedo, será genial.',
+      description: 'Mua mua mua, di que sí',
       img: 'https://i.pinimg.com/originals/e1/c3/88/e1c388133e0f998e25bb17c837b74a14.gif',
     },
     {
       id: 4,
-      description: 'Confía en mí, será divertido.',
+      description: 'Tú confiiiiaaaa',
       img: 'https://media.tenor.com/Bn88VELdNI8AAAAi/peach-goma.gif',
     },
     {
       id: 5,
-      description: 'No tengas dudas, te hará sonreír.',
+      description: 'Los jajas no faltarán :9',
       img: 'https://i.pinimg.com/originals/c6/b3/0d/c6b30d1a2dc178aeb92de63295d4ae64.gif',
     },
     {
       id: 6,
-      description: 'Te prometo que será inolvidable.',
+      description: 'Será muuuuy guaaaapoooo',
       img: 'https://media.tenor.com/N2oqtqaB_G0AAAAi/peach-goma.gif',
     },
     {
       id: 7,
-      description: 'No dejes que el miedo te detenga.',
+      description: 'Sin miedo al éxitoooo',
       img: 'https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif',
     },
     {
       id: 8,
-      description: 'Confía en el destino, nos está dando una señal.',
+      description: 'Mira que ya nos esperamos 14 añoooss',
       img: 'https://media.tenor.com/cbEccaK9QxMAAAAi/peach-goma.gif',
     },
     {
       id: 9,
-      description: 'Confía en mí.',
+      description: 'Confía en mí',
       img: 'https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif',
     },
     {
       id: 10,
-      description: 'No te arrepentirás.',
+      description: 'Estoy esperando que digas que siiiiii',
       img: 'https://media.tenor.com/I7KdFaMzUq4AAAAi/peach-goma.gif',
     },
     {
@@ -75,7 +75,7 @@ function App() {
     },
     {
       id: 12,
-      description: 'Dale, no seas mala',
+      description: 'Muuuuuaaaaaa, di que siiiiii',
       img: 'https://media.tenor.com/Az64YfoL7JcAAAAj/rawr.gif',
     },
   ];
@@ -104,7 +104,7 @@ function App() {
       {!valueSi ? (
         <div className="p-5">
           <h1 className="font-bold text-5xl text-center">
-            ¿Quieres ser mi San Valentin?
+            ¿Quieres ser mi San Valentín?
           </h1>
           <img
             src={
@@ -148,7 +148,7 @@ function App() {
                 {
                   (document.title =
                     Object.keys(randomValor).length === 0
-                      ? '¿Quieres ser mi San Valentin?'
+                      ? '¿Quieres ser mi San Valentín?'
                       : randomValor.description)
                 }
               </span>
@@ -158,14 +158,14 @@ function App() {
       ) : (
         <div className="flex justify-center items-center flex-col space-y-10">
           <h1 className="text-4xl font-bold">
-            Sabia que dirias que si ❤️!
+            Wujuuuu, dijiste que SI ❤️!
           </h1>
           <img
             src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif"
             alt=""
             className="mx-auto"
           />
-          <span hidden>{(document.title = 'Sabia que dirias que si ❤️!')}</span>
+          <span hidden>{(document.title = 'Wujuuuu, dijiste que SI ❤️!')}</span>
         </div>
       )}
     </main>
